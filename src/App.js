@@ -6,7 +6,7 @@ import HeroPhoto from "./comp/hero-photo";
 import Body from "./comp/body";
 
 const App = () => (
-  <div>
+  <div className="e-card">
     <HeroPhoto />
     <Body />
     <Footer />

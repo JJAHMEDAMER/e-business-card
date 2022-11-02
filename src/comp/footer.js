@@ -8,7 +8,7 @@ import github from "../assets/GitHub Icon.png";
 
 
 const Footer = () => (
-  <div>
+  <div className="footer">
     <img src={twitter} />
     <img src={instagram} />
     <img src={facebook} />
