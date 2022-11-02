@@ -1,8 +1,15 @@
 import React from "react";
 
+// Comp
+import Footer from "./comp/footer";
+import HeroPhoto from "./comp/hero-photo";
+import Body from "./comp/body";
+
 const App = () => (
   <div>
-    <h1>Hello World From App</h1>
+    <HeroPhoto />
+    <Body />
+    <Footer />
   </div>
 );
 
